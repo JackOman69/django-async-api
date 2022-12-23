@@ -41,3 +41,5 @@
 * После создания проекта и администратора запускаем сервер - `python manage.py runserver`
 * `/swagger-ui/` - Графическое представление API
 * `/admin/` - Админ панель Django
+* `/team/get_employees` - GET Запрос на все системы (Доступен - POST)
+* `/team/get_employees/<id>` - GET Запрос на одну систему (Доступны - PUT, DELETE)

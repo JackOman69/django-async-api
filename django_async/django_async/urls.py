@@ -30,6 +30,6 @@ urlpatterns = [
         template_name='swagger-ui.html',
         extra_context={'schema_url': 'openapi-schema'}
     ), name='swagger-ui'),
-    path('api/', AsyncView.as_view()),
-    path('api/<int:id>/', DetailAsyncView.as_view()),
+    path('team/get_employees', AsyncView.as_view()),
+    path('team/get_employees/<int:id>', DetailAsyncView.as_view()),
 ]
