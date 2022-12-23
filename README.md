@@ -25,6 +25,8 @@
 * `drfasyncview`
 * `PyYaml`
 * `HTTPX`
+* `Whitenoise`
+* `Uvicorn`
 * `Dotenv`
 ---
 ## Установка
