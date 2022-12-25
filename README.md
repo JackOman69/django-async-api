@@ -38,7 +38,7 @@
 ---
 ## Использование
 
-* После создания проекта и администратора запускаем сервер - `python manage.py runserver`
+* После создания проекта и администратора запускаем сервер - `uvicorn --reload django_async.asgi:application`
 * `/swagger-ui/` - Графическое представление API
 * `/admin/` - Админ панель Django
 * `/team/get_employees` - GET Запрос на все системы (Доступен - POST)
